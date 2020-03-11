@@ -1,5 +1,4 @@
 <?php
-
     class Person {
         private $firstName;
         private $lastName;
@@ -53,5 +52,4 @@
                 return "don't have";
             }
         }
-
     }

@@ -21,8 +21,6 @@
         $newPerson->setHasCar(false);
 
         echo "I'm " . $newPerson->getFirstName() . " " . $newPerson->getLastName() . ". I'm " . $newPerson->getAge() . " old, also I " . $newPerson->getHasCar() . " car.";
-
-    
     ?>
 
 
