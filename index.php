@@ -12,6 +12,8 @@
 
 <body>
     <?php
+
+        //way to make object without constructor
         $newPerson = new Person();
 
         $newPerson->setFirstName('Harald');
@@ -21,6 +23,20 @@
         $newPerson->setHasCar(false);
 
         echo "I'm " . $newPerson->getFirstName() . " " . $newPerson->getLastName() . ". I'm " . $newPerson->getAge() . " old, also I " . $newPerson->getHasCar() . " car.";
+
+
+        //way to make object with constructor
+        $newCar = new Car('kia', 'red', 'gasoline', false);
+
+        echo "<br />";
+        echo $newCar->getMark();
+        echo "<br />";
+        echo $newCar->getColor();
+        echo "<br />";
+        echo $newCar->getFuelType();
+        echo "<br />";
+        echo $newCar->getHasOwner();
+
     ?>
 </body>
 </html>
