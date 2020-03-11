@@ -7,23 +7,23 @@
         private $hasCar;
 
         //setters
-        public function setFirstName($newName) {
+        public function setFirstName(string $newName) {
             $this->firstName = $newName;
         }
 
-        public function setLastName($newLastName) {
+        public function setLastName(string $newLastName) {
             $this->lastName = $newLastName;
         }
 
-        public function setAge($newAge) {
+        public function setAge(int $newAge) {
             $this->age = $newAge;
         }
 
-        public function setEyeColor($newEyeColor) {
+        public function setEyeColor(string $newEyeColor) {
             $this->eyeColor = $newEyeColor;
         }
 
-        public function setHasCar($newHasCar) {
+        public function setHasCar(bool $newHasCar) {
             $this->hasCar = $newHasCar;
         }
 
