@@ -6,7 +6,6 @@
         private $eyeColor;
         private $hasCar;
 
-
         //setters
         public function setFirstName($newName) {
             $this->firstName = $newName;
